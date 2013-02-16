@@ -4,6 +4,8 @@ ruby-utils
 Misc utilities with Ruby
 
 
+
+
 Entomb
   Uses gpg with symmetric cipher option (-c) to encrypt a file twice.
 
@@ -12,6 +14,12 @@ Entomb
   If AES256 is not available, the script will randomly choose both encryption algorithms, but will not use the same algorithm twice.
 
   Example: ruby entomb.rb test.txt
+
+
+
+Site Light
+  Mobile phone browsers can be slow and have data limits, so use Nokogiri to filter out unimportant info
+
 
 
 Stopwatch
