@@ -3,10 +3,8 @@ ruby-utils
 
 Misc utilities with Ruby
 
+- Entomb
 
-
-
-Entomb
   Uses gpg with symmetric cipher option (-c) to encrypt a file twice.
 
   Chooses AES256 for first encryption, and randomly chooses another cipher encryption algorithm for the second encryption.
@@ -17,19 +15,26 @@ Entomb
 
 
 
-Site Light
+- Site Light
+
   Mobile phone browsers can be slow and have data limits, so use Nokogiri to filter out unimportant info
 
 
 
-Stopwatch
+- Stopwatch
+
   Very simple command line timer
 
   Example (output elapsed time every 3 seconds): ruby stopwatch.rb 3
 
 
-
-The Watchers
+- The Watchers
   Ruby script to notify when content of web page changes 
+
+- Focused Web Search
+
+  Search specified web pages for keyword
+
+  Useful for locating specific episodes in podcasts
 
 
