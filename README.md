@@ -39,3 +39,10 @@ Misc utilities with Ruby
   Useful for locating specific episodes in podcasts
 
 
+- Flash Cards
+
+  text-based flash cards
+
+  ability to randomize and flip
+
+
