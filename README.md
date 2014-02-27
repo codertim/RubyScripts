@@ -32,12 +32,6 @@ Misc utilities with Ruby
 
   Ruby script to notify when content of web page changes 
 
-- Focused Web Search
-
-  Search specified web pages for keyword
-
-  Useful for locating specific episodes in podcasts
-
 
 - Flash Cards
 
