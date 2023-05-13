@@ -9,6 +9,7 @@ puts "Starting ..."
 
 if ARGV.empty?
   puts "Missing flash card text file command line argument"
+  exit
 else
   $flash_card_file = ARGV.first  
 end
