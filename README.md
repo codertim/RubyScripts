@@ -15,12 +15,6 @@ Misc utilities with Ruby
 
 
 
-- Site Light
-
-  Mobile phone browsers can be slow and have data limits, so use Nokogiri to filter out unimportant info
-
-
-
 - Stopwatch
 
   Very simple command line timer
