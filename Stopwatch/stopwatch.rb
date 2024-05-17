@@ -6,6 +6,7 @@ max_time   = nil # nil means infinite
 show_full_date_time = false
 compact_output      = false
 
+
 if ARGV[0][0].chr == "-"
   sleep_time = ARGV[1].to_i if ARGV[1]
   max_time   = ARGV[2].to_i if ARGV[2]
@@ -21,12 +22,12 @@ initial_time = Time.now
 
 puts "Sleep timer: #{sleep_time} seconds"
 
-
-if ARGV[0] == "-h"
-  puts "Usage: ruby stopwatch.rb [interval] [max]\n\n"
-  exit(0)
-end
-
+BEGIN {
+  if ARGV.size == 0 || ARGV[0] == "-h"
+    puts "Usage: ruby stopwatch.rb [interval (s)] [max (s)\n\n"
+    exit(0)
+  end
+}
 
 puts
 
