@@ -89,6 +89,13 @@ def decrypt(filename)
 end
 
 
+puts "RUBY_PLATFORM = #{RUBY_PLATFORM}"
+on_linux = RUBY_PLATFORM =~ /linux/
+if !on_linux
+  puts "Not on linux"
+  exit
+end
+
 
 if ARGV.size == 0
   puts "Missing filename"
